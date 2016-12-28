@@ -1,7 +1,7 @@
 {
   "name": "resolutedreamer-filemetadata",
   "version": "1.0.0",
-  "description": "Free Code Camp - File Metadata Microservice",
+  "description": "Free Code Camp - File Metadata Microservice, Implemented by Anthony C. Nguyen",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
