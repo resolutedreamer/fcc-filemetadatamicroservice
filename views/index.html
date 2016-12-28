@@ -1,23 +1,23 @@
-<!-- saved from url=(0033)https://little-url.herokuapp.com/ -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>URL Shortener Microservice</title>
-<!--Always force latest IE rendering engine (even in intranet) & Chrome Frame Remove this if you use the .htaccess-->
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="description" content="URL Shortener Microservice">
-<meta name="author" content="Rafase282">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="./URL Shortener Microservice_files/bootstrap.min.css">
-<link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"></head>
-<body class=" hasGoogleVoiceExt">
-  <div class="container-fluid">
-    <h1 class="header">Free Code Camp - File Metadata Microservice</h1>
-      <p>User stories:</p>
-      <ul>
-        <li>1) I can submit a FormData object that includes a file upload.</li>
-        <li>2) When I submit something, I will receive the file size in bytes within the JSON response.</li>
-      </ul>
-  </div>
-  Submit a file to view its filesize.
-  <form action="/get-file-size" method="post" enctype="multipart/form-data">
-  <input type="file" name="file">
-  <input type="submit">
-  </form>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Free Code Camp - File Metadata Microservice</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  </head>
+  <body class=" hasGoogleVoiceExt">
+    <div class="container">
+      <h1 class="header">Free Code Camp - File Metadata Microservice</h1>
+        <p>User stories:</p>
+        <ul>
+          <li>1) I can submit a FormData object that includes a file upload.</li>
+          <li>2) When I submit something, I will receive the file size in bytes within the JSON response.</li>
+        </ul>
+        Submit a file to view its filesize.
+        <form action="/get-file-size" method="post" enctype="multipart/form-data">
+          <input type="file" name="file">
+          <input type="submit">
+        </form>
+    </div>
+  </body>
+</html>
