@@ -1,0 +1,27 @@
+{
+  "name": "resolutedreamer-filemetadata",
+  "version": "1.0.0",
+  "description": "Free Code Camp - File Metadata Microservice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "author": "Anthony Nguyen",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/resolutedreamer/fcc-filemetadatamicroservice.git"
+  },
+  "keywords": [
+    "filemetadatamicroservice"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/resolutedreamer/fcc-filemetadatamicroservice/issues"
+  },
+  "homepage": "https://github.com/resolutedreamer/fcc-filemetadatamicroservice#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "multer": "^1.2.1"
+  }
+}
